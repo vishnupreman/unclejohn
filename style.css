@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+.mainheader{
+    padding: 0 95px;
+}
+.mainheaditems{
+    font-weight: bolder;
+}
+.mainheaditems:hover{
+    color: red;
+    text-decoration: underline;
+}
+.mainheaditems :hover{
+    color: red;
+}
+.postionfi{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
+}
+.unclejohnheading{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.types{
+    background-color: #0052a1;
+    cursor: pointer;
+}
+.items{
+    background: #f2e4cf;
+}
+.pclass{
+    background-color: blue; 
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.last{
+    width: 100%;
+    background: url(/about-home-bg.jpg);
+}
+.buttonn1{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+@media(max-width:1000px){
+    .navbarimg{
+        margin-right: 300px;
+    }
+}
+.types:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.buttonn1:hover{
+    background-color: #0052a1;
+    color: white;
+    transition: 0.5s;
+}
